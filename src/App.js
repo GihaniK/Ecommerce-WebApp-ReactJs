@@ -10,7 +10,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import Product from "./pages/Product/Product";
 import Products from "./pages/Products/Products";
-
+import "./app.scss";
 
 const Layout = () =>{
   return (
@@ -29,19 +29,19 @@ const router = createBrowserRouter([
     children: [
         {
           path:"/",
-          element:<Home/>
+          element:<Home/>,
         },
         {
           path:"/Product/:id",
-          element:<Product/>
+          element:<Product/>,
         },
         {
           path:"/Products/:id",
-          element:<Products/>
-        }
-    ]
+          element:<Products/>,
+        },
+    ],
   },
-])
+]);
 
 function App() {
   return (
