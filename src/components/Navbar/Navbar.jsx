@@ -29,12 +29,6 @@ const Navbar = () => {
         <div className="item">
           <Link className='link' to="/products/3">TV</Link>
         </div>
-        <div className="item">
-          <Link className='link' to="/products/4">iPad</Link>
-        </div>
-        <div className="item">
-          <Link className='link' to="/products/5">Accessories</Link>
-        </div>
       </div>
       <div className="center">
         <Link className='link' to="/">ThunderMac</Link>
