@@ -55,7 +55,7 @@ const Product = () => {
         <div className="info">
           <span>Ram: 8GB</span>
           <span>Product Type: iPhone</span>
-          <span>Tag: Tshirt, Women, Top</span>
+          <span>Tag: iphone 11</span>
         </div>
         <hr />
         <div className="info">
